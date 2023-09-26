@@ -1,0 +1,77 @@
+body{
+    max-width: 90%;
+    margin: 0 auto;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/558/625/87/fox-trees-fantasy-art-dreamland-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    background: -webkit-linear-gradient(-48deg, rgb(255, 123, 123), rgb(251, 251, 251));
+    background: linear-gradient(-48deg, rgb(255, 123, 123), rgb(251, 251, 251));
+}
+header h1{
+    background-color: rgb(255, 86, 86);
+    color: white;
+}
+p{
+    font-family: sans-serif;
+    color: rgb(74, 74, 74);
+    line-height: 1.5;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+a:link{
+    color: rgb(104, 104, 255);
+}
+a:hover{
+    color: rgb(108, 255, 63);
+}
+
+a:visited{
+    color: rgb(255, 87, 87);
+}
+blockquote {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #ededed;
+    font-size: 160%;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    margin: 80px auto;
+}
+.farmer{
+    border-left: 3px solid rgb(125, 255, 99);
+}
+.village{
+    border-left: 3px solid rgb(255, 224, 72);
+}
+.good{
+    text-transform: capitalize;
+    color: green;
+}
+.bad{
+    text-transform: capitalize;
+    color: red;
+}
+tr:nth-child(even){
+    background-color: #989898;
+}
+tr:nth-child(odd){
+    background-color: #ededed;
+}
+li:nth-child(1){
+    background-image: url(https://images.emojiterra.com/google/noto-emoji/unicode-15/color/share/1f44d.jpg);
+    background-size: 30px auto;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+figure img{
+    width: 50%;
+    margin-left: 30px;
+}
